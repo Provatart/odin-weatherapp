@@ -1,0 +1,49 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family:  'Roboto Flex', sdans-serif;
+}
+body {
+    text-align: center;
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+
+}
+main {
+    flex: 1;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+h4{
+    font-style: italic;
+}
+footer {
+    height: 50px;
+    width: 100%;
+background-color: #eeebeb;
+color: #444;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 80%;
+
+
+}
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #eeebeb;
+color: #444;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 80%;
+
+}
